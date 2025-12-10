@@ -1,0 +1,662 @@
+
+video{
+    position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+       z-index: -1;
+}
+ .dot {
+    z-index: 1;
+    pointer-events: none;
+      position: absolute;
+      top: -10px;
+      width: 6px;
+      height: 6px;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation-name: fall;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(110vh);
+        opacity: 0;
+      }
+    }
+
+    .dot1  { left: 3%;   animation-duration: 5s;  animation-delay: 0s; }
+    .dot2  { left: 6%;   animation-duration: 6s;  animation-delay: 0.3s; }
+    .dot3  { left: 9%;   animation-duration: 7s;  animation-delay: 0.8s; }
+    .dot4  { left: 12%;  animation-duration: 4.5s;animation-delay: 0.5s; }
+    .dot5  { left: 15%;  animation-duration: 6.5s;animation-delay: 1s; }
+    .dot6  { left: 18%;  animation-duration: 5.2s;animation-delay: 0.2s; }
+    .dot7  { left: 21%;  animation-duration: 6.1s;animation-delay: 0.9s; }
+    .dot8  { left: 24%;  animation-duration: 5.4s;animation-delay: 0.7s; }
+    .dot9  { left: 27%;  animation-duration: 6.8s;animation-delay: 1.3s; }
+    .dot10 { left: 30%;  animation-duration: 5.3s;animation-delay: 0.4s; }
+    .dot11 { left: 33%;  animation-duration: 6s;  animation-delay: 0.6s; }
+    .dot12 { left: 36%;  animation-duration: 4.8s;animation-delay: 1.5s; }
+    .dot13 { left: 39%;  animation-duration: 5.7s;animation-delay: 0.1s; }
+    .dot14 { left: 42%;  animation-duration: 6.2s;animation-delay: 1.1s; }
+    .dot15 { left: 45%;  animation-duration: 5.6s;animation-delay: 0.3s; }
+    .dot16 { left: 48%;  animation-duration: 6.3s;animation-delay: 0.7s; }
+    .dot17 { left: 51%;  animation-duration: 5.9s;animation-delay: 1.2s; }
+    .dot18 { left: 54%;  animation-duration: 4.7s;animation-delay: 0.2s; }
+    .dot19 { left: 57%;  animation-duration: 6.6s;animation-delay: 0.6s; }
+    .dot20 { left: 60%;  animation-duration: 5.5s;animation-delay: 1s; }
+    .dot21 { left: 63%;  animation-duration: 6.4s;animation-delay: 0.4s; }
+    .dot22 { left: 66%;  animation-duration: 4.9s;animation-delay: 0.8s; }
+    .dot23 { left: 69%;  animation-duration: 5.1s;animation-delay: 1.4s; }
+    .dot24 { left: 72%;  animation-duration: 6.7s;animation-delay: 0.1s; }
+    .dot25 { left: 75%;  animation-duration: 5.8s;animation-delay: 0.5s; }
+    .dot26 { left: 78%;  animation-duration: 6.9s;animation-delay: 1.3s; }
+    .dot27 { left: 81%;  animation-duration: 4.6s;animation-delay: 0.9s; }
+    .dot28 { left: 84%;  animation-duration: 6.1s;animation-delay: 0.2s; }
+    .dot29 { left: 87%;  animation-duration: 5.4s;animation-delay: 0.6s; }
+    .dot30 { left: 90%;  animation-duration: 6s;  animation-delay: 1.1s; }
+.div1{
+    width: 630px;
+	height: 470px;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	backdrop-filter: blur(10px);
+    background-color: #00000062;
+}
+.avatar{
+    position: absolute;
+    width: 140px;
+    left: 250px;
+    top: 30px;
+}
+.kori{
+    position: absolute;
+   background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, red);
+   color: transparent;
+   background-size: 400% 400%;
+   background-clip: text;
+   animation: anim1 5s infinite linear;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 40px;
+   left: 282px;
+   top: 130px;
+}
+
+@keyframes anim1{
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.html::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.kori::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.avatar::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.htmldht::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.css::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.cssdht::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.javascriptdht::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.javascript::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.c::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.cdht::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.avatar2::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+#status-img::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.morelokor2::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.nitro::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.bravery::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.braverydt::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.questdt::selection{
+    background-color: #ffffff;
+    color: #000000;
+}
+.bravery.n::selection{
+    background-color: #ffffff00;
+    color: #00000000;
+}
+.yesiamsure::selection{
+    background: #ffffff;
+    color: #000000;
+}
+.surewhynot::selection{
+    background: #ffffff;
+    color: #000000;
+}
+.youtubecom::selection{
+    background: #ffffff;
+    color: #000000;
+}
+.visit1::selection{
+    background: #ffffff;
+    color: #000000;
+}
+.cancel::selection{
+    background: #ffffff;
+    color: #000000;
+}
+.html{
+    position: absolute;
+    width: 30px;
+    top: 230px;
+    left: 210px;
+}
+.htmld{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 225px;
+    left: 202px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #ffffff60;
+    transition: 0.3s ease;
+}
+.htmldh{
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0;
+    position: absolute;
+    background-color: #0000004d;
+    top: 230px;
+    left: 195px;
+    width: 60px;
+    height: 35px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.htmldht{
+    pointer-events: none;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    top: -14px;
+    left: 7px;
+    font-size: 20px;
+}
+.htmld:hover ~ .htmldh{
+    opacity: 1;
+    top: 180px;
+    left: 195px;
+}
+.htmld:hover{
+    box-shadow: inset 0 0 20px #ffffff4d;
+}
+.css{
+    position: absolute;
+    width: 32px;
+    top: 230px;
+    left: 266px;
+}
+.cssd{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 225px;
+    left: 260px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #ffffff60;
+    transition: 0.3s ease;
+}
+.cssdh{
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0;
+    position: absolute;
+    background-color: #0000004d;
+    top: 230px;
+    left: 251px;
+    width: 60px;
+    height: 35px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.cssdht{
+    pointer-events: none;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    top: -14px;
+    left: 14px;
+    font-size: 20px;
+}
+.cssd:hover ~ .cssdh{
+    opacity: 1;
+    top: 180px;
+    left: 251px;
+}
+.cssd:hover{
+    box-shadow: inset 0 0 20px #ffffff4d;
+}
+
+.javascript{
+    position: absolute;
+    width: 32px;
+    top: 230px;
+    left: 341px;
+}
+.javascriptd{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 225px;
+    left: 334px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #ffffff60;
+    transition: 0.3s ease;
+}
+.javascriptdh{
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0;
+    position: absolute;
+    background-color: #0000004d;
+    top: 230px;
+    left: 295px;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.javascriptdht{
+    pointer-events: none;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    top: -15px;
+    left: 14px;
+    font-size: 20px;
+}
+.javascriptd:hover ~ .javascriptdh{
+    opacity: 1;
+    top: 180px;
+    left: 295px;
+}
+.javascriptd:hover{
+    box-shadow: inset 0 0 20px #ffffff4d;
+}
+
+.c{
+    position: absolute;
+    width: 38px;
+    top: 228px;
+    left: 395px;
+}
+.cd{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 225px;
+    left: 391px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #ffffff60;
+    transition: 0.3s ease;
+}
+.cdh{
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0;
+    position: absolute;
+    background-color: #0000004d;
+    top: 230px;
+    left: 389px;
+    width: 50px;
+    height: 35px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.cdht{
+    pointer-events: none;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    top: -22px;
+    left: 14px;
+    font-size: 25px;
+}
+.cd:hover ~ .cdh{
+    opacity: 1;
+    top: 180px;
+    left: 389px;
+}
+.cd:hover{
+    box-shadow: inset 0 0 20px #ffffff4d;
+}
+.avatar2{
+  position: absolute;
+  width: 80px;
+  top: 5px;
+  left: 10px;
+}
+.div2{
+  position: absolute;
+  background-color: #ffffff15;
+  border-radius: 20px;
+  width: 280px;
+  height: 90px;
+  top: 290px;
+  left: 190px;
+  border: 2px solid #80808028;
+}
+#status-img{
+  width: 18px;
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  z-index: 99;
+}
+.morelokor2{
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+  top: 12px;
+  left: 95px;
+}
+.nitro{
+  z-index: 101;
+  position: absolute;
+  left: 200px;
+  top: 31px;
+  width: 35px;
+}
+.nitrod{
+   opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  background-color: #000000a8;
+  border-radius: 10px;
+  left: 162px;
+  top: 10px;
+  transition: 0.3s;
+}
+.nitrodt{
+  pointer-events: none;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 14px;
+  top: -10px;
+  left: 3.5px;
+}
+.nitro:hover ~ .nitrod{
+    opacity: 1;
+    top: 5px;
+    left: 162px;
+}
+
+
+.bravery{
+  z-index: 101;
+  position: absolute;
+  left: 230px;
+  top: 30px;
+  width: 25px;
+}
+.braveryd{
+   opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  background-color: #000000a8;
+  border-radius: 10px;
+  left: 162px;
+  top: 10px;
+  transition: 0.3s;
+}
+.braverydt{
+  pointer-events: none;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 14px;
+  top: -10px;
+  left: 3.5px;
+}
+.bravery:hover ~ .braveryd{
+    opacity: 1;
+    top: 5px;
+    left: 162px;
+}
+
+.quest{
+  z-index: 101;
+  position: absolute;
+  left: 255px;
+  top: 35px;
+  width: 30px;
+}
+.questd{
+   opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: #000000a8;
+  border-radius: 10px;
+  left: 240px;
+  top: 10px;
+  transition: 0.3s;
+}
+.questdt{
+  pointer-events: none;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 14px;
+  top: -10px;
+  left: 3.5px;
+}
+.quest:hover ~ .questd{
+    opacity: 1;
+    top: 5px;
+    left: 240px;
+}
+.tube{
+    position: absolute;
+    font-size: 40px;
+    text-shadow: 0 0 15px white;
+    left: 130px;
+    top: 400px;
+    transition: 0.4s ease;
+    z-index: -1000000000000;
+}
+.tube:hover{
+    cursor: pointer;
+    text-shadow: 0 0 20px white;
+    transform: scale(1.1);
+}
+.div3 {
+    transition: 0.4s;
+    z-index: 100000000;
+    position: fixed;
+    background-color: #111813;
+    width: 390px;
+    height: 160px;
+    border-radius: 10px;
+    border: 2px solid #8080801f;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yesiamsure{
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    left: 10px;
+    top: -12px;
+}
+.shadow1{
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 1100;
+    opacity: 0;
+}
+.shadow1.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+.close{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 10px;
+    left: 366px;
+}
+.div4 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    background-color: #8080804d;
+    left: 362px;
+    top: 7px;
+    z-index: 1000;
+    opacity: 0; /* HIDDEN by default */
+    transition: opacity 0.3s ease;
+}
+
+.div4:hover {
+    opacity: 1; /* VISIBLE on hover */
+    cursor: pointer;
+}
+#div3.show{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+.surewhynot{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    left: 120px;
+    top: 30px;
+}
+.div5{
+    position: absolute;
+    top: 72px;
+    left: 150px;
+    border-radius: 10px;
+    width: 110px;
+    height: 35px;
+    background-color: #504e4e7a;
+}
+.youtubecom{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #dfdddd;
+    top: 64px;
+    left: 160px;
+}
+.button1visit{
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    background-color: #d30ac26b;
+    border-radius: 7px;
+    top: 120px;
+    left: 130px;
+    border: 2px solid purple;
+    cursor: pointer;
+}
+.visit1{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    top: 112px;
+    left: 145px;
+    pointer-events: none;
+}
+.button1close{
+    position: absolute;
+    top: 120px;
+    left: 215px;
+    width: 75px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #8080802f;
+    border: 2px solid #8080803f;
+     cursor: pointer;
+}
+.cancel{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    top: 112px;
+    left: 227px;
+    pointer-events: none;
+}
