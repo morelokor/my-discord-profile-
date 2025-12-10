@@ -2,8 +2,8 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const express = require('express');
 const cors = require('cors');
 
-const DISCORD_USER_ID = '1326715694448119818'; // Your Discord user ID here
-const BOT_TOKEN = 'MTM4NDUxMjk1ODg5NzMyNDIzMg.GmuaHp.cMWkUtEOOt7XApUqzmreB-XOMGU0R2NztFkBbY';   // Your original bot token
+const DISCORD_USER_ID = ''; // Your Discord user ID here
+const BOT_TOKEN = '';   // Your original bot token
 
 const app = express();
 app.use(cors()); // Enable CORS so your website can fetch /status
@@ -49,3 +49,4 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Status server running on http://localhost:${PORT}`);
 });
+
